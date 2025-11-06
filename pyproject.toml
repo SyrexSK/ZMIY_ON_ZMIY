@@ -1,0 +1,10 @@
+[project]
+name = "rk"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.4",
+    "pygame>=2.6.1",
+]
