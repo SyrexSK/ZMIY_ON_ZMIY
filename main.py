@@ -1,6 +1,6 @@
 """
 Нейро-игра «Змий»
--------------------------------------------------
+------------------------------------------------------------------------------------------------
 Особенности:
 - Эволюционная популяция фиксированной топологии нейросетей (GA + элитизм)
 - Набор признаков: опасность (вперед/влево/вправо), текущее направление, направление до еды
@@ -11,11 +11,11 @@
 Зависимости: Python 3.12, numpy, pygame
 Установка: uv add numpy pygame
 Запуск тренировки (без окна):
-    python main.py --train --generations 50 --pop 150
+    uv run main.py --train --generations 50 --pop 150
 Просмотр лучшего после тренировки:
-    python main.py --play --model weights.pkl --speed 15
+    uv run main.py --play --model weights.pkl --speed 15
 Совмещённый цикл: сначала тренировка, затем показ:
-    python main.py --train --generations 30 --pop 120 --then-play --speed 15
+    uv run main.py --train --generations 30 --pop 120 --then-play --speed 15
 """
 from __future__ import annotations
 import argparse

@@ -1,1 +1,1 @@
-python main.py --train --generations 30 --pop 120 --then-play --speed 15
+uv run main.py --train --generations 30 --pop 120 --then-play --speed 15
